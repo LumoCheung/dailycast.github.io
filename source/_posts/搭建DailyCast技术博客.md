@@ -75,14 +75,14 @@ hexo new '搭建DailyCast技术博客'
 hexo server
 hexo generate --watch
 ```
-5. 发布源码和文章  
+5. 发布源码 
 编辑文章完成以后运行如下命令发布源码到`Github`仓库
 ```
 git add .
 git commit -m "add new post"
 git push origin source
 ```
-运行如下命令生成并发布文章
+6. 发布文章
 ```
 hexo generate --deploy
 ```

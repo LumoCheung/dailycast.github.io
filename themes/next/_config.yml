@@ -350,10 +350,11 @@ disqus:
   enable: false
   shortname:
   count: true
-  
+
 commenthub:
   enable: true
   id: 33658114
+  site: http://dailycast.github.io
 # Hypercomments
 #hypercomments_id:
 

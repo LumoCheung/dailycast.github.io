@@ -13,12 +13,6 @@ menu:
   - page: archive
     directory: archives/
     icon: fa-archive
-  - page: about
-    directory: about/
-    icon: fa-user
-  - page: rss
-    directory: atom.xml
-    icon: fa-rss
 
 # Sidebar
 widgets:
@@ -27,7 +21,7 @@ widgets:
   - tag
   - archive
   #- weibo
-  - links
+  #- links
 
 # Toc
 toc:
@@ -79,7 +73,7 @@ comment:
     appkey: ##畅言(appkey)
 
 #Share
-baidu_share: true ## 百度分享
+baidu_share: false ## 百度分享
 JiaThis_share: ##true ##JiaThis分享
 duoshuo_share: #true ##true 多说分享必须和多说评论一起使用。
 addToAny_share: # AddToAny share. Empty list hides. List items are service name at url. For ex: email for '<a href="https://www.addtoany.com/add_to/email?linkurl=...'

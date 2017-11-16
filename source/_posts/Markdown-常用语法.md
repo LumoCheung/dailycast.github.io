@@ -114,6 +114,9 @@ String HOME = "home";
 	实现方案:
 	![alt](URL "title")
 	alt 和 title 都可以省略
+	
+	![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
+	
 ![](https://www.google.co.jp/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png)
 
 emoji 表情

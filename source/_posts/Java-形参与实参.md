@@ -4,6 +4,7 @@ date: 2017-11-16 13:41:28
 tags: Java 形参 实参
 ---
 前几天在头条上看到一道经典面试题,引发了一些思考。也是写这篇文章的导火索。
+### 背景
 请看题:
 ```java
 public	class Main {
@@ -145,8 +146,8 @@ private static void testReference(Person person) {
 好了，基础知识补充完毕，然我们回到面试题吧
 
 -----------------
-回归正题
-==========
+__回归正题__
+
 ```java
 private static void swap(Integer numa, Integer numb) {
         Integer tmp = numa;
@@ -265,8 +266,7 @@ public static void main(String[] args) {
 ```
 _哎？为啥 1 和 2 也可以了?_  
 _我们这时肯定猜想和`Integer`的装箱 拆箱有关_
-引入下一个概念
-------------
+### 装箱，拆箱 概念
 #### Integer的装箱操作
 为什么 `Integer a = 1` 和 `Integer a = new Integer(1)` 效果不一样
 那就瞅瞅源码吧？
